@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Reem+Kufi+Ink&family=Reem+Kufi:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Reem Kufi", sans-serif;
+  font-family: "Reem Kufi Ink", sans-serif;
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+/* justify-content: end; */
+  /* height: calc(100vh-80px); */
+}
